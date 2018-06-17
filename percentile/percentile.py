@@ -38,7 +38,7 @@ def percentile(x, p, method=7):
     * Method 6: pk=k/(n+1), thus pk=E[F(xk)]. Linear interpolation 
                 of the expectations for the order statistics for the 
                 uniform distribution on [0,1]. 
-                (Used by Minitab and SPSS).
+                (Used by Minitab and SPSS). 
     * Method 7: pk=(k−1)/(n−1), thus pk=mode[F(xk)]. Linear 
                 interpolation of the modes for the order statistics 
                 for the uniform distribution on [0,1]. 
