@@ -66,7 +66,6 @@ def percentile(x, p, method=7):
     # -------------------------------------------------------------------------
     if method < 1 or method > 9:
         raise ValueError('Invalid method. Must be an integer beween 1 and 9')
-    
     if np.isscalar(p):
         p = [p]
     
