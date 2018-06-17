@@ -41,7 +41,7 @@ def mcomparison_letters(p_values, significance_level = 0.05, return_numbers = Fa
         comparisons -= n_groups
     n_groups += 1
     if comparisons < 0:
-        raise ValueError('Invalid number of p_values. Must be a triangual number (1+2+3+4+...+n)')
+        raise ValueError('Invalid number of p_values. Must be a triangular number (1+2+3+4+...+n)')
             
     # Convert p-values to boolean and 
     # Rearrange them into a nested list [[1vs2, 1vs3, 1vs4], [2vs3, 2vs4], [3vs4]]
