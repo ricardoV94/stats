@@ -53,7 +53,7 @@ def percentile(x, p, method=7):
                 the expected order statistics if x is normally 
                 distributed (Used for normal QQ plots).
         
-    References
+    References 
     ----------
     Hyndman, R. J. and Fan, Y. (1996) Sample quantiles in statistical 
         packages, American Statistician 50, 361--365.
