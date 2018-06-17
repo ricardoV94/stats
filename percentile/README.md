@@ -1,4 +1,4 @@
-The [percentile](percentile.py) function computes the requested percentiles of a given distribution, with any of the 9 most common methods described by [Hyndman & Fan (1996)](https://www.researchgate.net/profile/Rob_Hyndman/publication/222105754_Sample_Quantiles_in_Statistical_Packages/links/02e7e530c316d129d7000000.pdf). 
+The [percentile](percentile.py) function computes the requested percentiles of a given distribution, with any of the 9 common methods described by [Hyndman & Fan (1996)](https://www.researchgate.net/profile/Rob_Hyndman/publication/222105754_Sample_Quantiles_in_Statistical_Packages/links/02e7e530c316d129d7000000.pdf). 
 
 Complements the numpy.percentile function, which only contains method 7.
 
