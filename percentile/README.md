@@ -2,7 +2,7 @@ The [percentile](percentile.py) function computes the requested percentiles of a
 
 Complements the numpy.percentile function, which only contains method 7.
 
-The [percentile_single_formula](percentile_single_formula.py) employs the same formula for all the methods. This is less efficient for continuous methods (4-9), and was included mostly for educational purposes. 
+The [percentile_single_formula](percentile_single_formula.py) employs the same formula for all the methods. This is less efficient for continuous methods (4-9), and was included for educational purposes. 
 
 MIT License
 
